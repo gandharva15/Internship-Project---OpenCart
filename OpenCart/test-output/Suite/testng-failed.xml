@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="InternAssignment.OpenCart.Listners"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="InternAssignment.OpenCart.TestLogin">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- InternAssignment.OpenCart.TestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
