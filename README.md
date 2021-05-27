@@ -4,5 +4,4 @@ The assignment given was to automate the URL = "https://www.opencart.com/index.p
 
 Here I had used Eclipse IDE for Java, TestNG, Maven and Listeners. Starting from the scratch first I created the Maven Project. After that getting all the jars from the maven repositery was easy. Then using the page object model I created the page objects for the Login page and the user page (page after successful login). After that the testcase was built for validating the login page. Here I also implemented the Excel sheet integration for getting the login info. so the test can run for as many times as we provide the username and password in the sheet. For validation the correct login user I used TestNG assertions and listeners.
 
-The problem I faced was I was not able to Click the LOGIN and REGISTER buttons using .click() method, so I tackled it using the sendKeys method.
-Also I was not able to automate the Registration Page as it had the Visual CAPTCHA.
+I was not able to automate the Registration Page as it had the Visual CAPTCHA.
