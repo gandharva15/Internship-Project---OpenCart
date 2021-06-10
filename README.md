@@ -1,4 +1,4 @@
-# Internship-Project---OpenCart
+# Project---OpenCart-Login page automation
 
 The assignment given was to automate the URL = "https://www.opencart.com/index.php?route=account/login".
 
